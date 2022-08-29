@@ -31,12 +31,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
-  
+
   s.source_files = 'LinkedInSignIn/Classes/**/*'
 
   s.resource = 'LinkedInSignIn/**/*.storyboard'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'WebKit'
-  s.dependency 'MBProgressHUD', '~> 0.9'
+  s.dependency 'MBProgressHUD', '~> 1.2.0'
 end
